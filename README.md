@@ -9,11 +9,12 @@
 - Add styles to classes
 - Use of .gitignore
 - SVG optimized Images 
-- 
+
 
 ### General  :triangular_ruler:
 - Why use bem methodology
 - Why start with first mobile
+
 
 ## Requirements
 ### General
