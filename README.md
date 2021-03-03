@@ -14,7 +14,6 @@
 ### General  :triangular_ruler:
 - Why use bem methodology
 - Why start with first mobile
-- 
 
 ## Requirements
 ### General
