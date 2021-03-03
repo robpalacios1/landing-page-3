@@ -84,7 +84,7 @@
     display: block;
     justify-content: space-between;
     align-items: center;
-    background-color: #8c30f5;
+    background-color: rgb(223, 236, 43);
     padding-top: 0.875rem;
     padding-right: 0rem;
     padding-bottom: 0.875rem;
@@ -185,7 +185,7 @@
   .navbar {
     display: block;
     align-items: center;
-    background-color: #8c30f5;
+    background-color: rgb(223, 236, 43);
     padding-top: 0.875rem;
     padding-right: 0rem;
     padding-bottom: 0.875rem;
