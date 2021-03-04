@@ -385,9 +385,14 @@
     background-color: aquamarine;
   }
 
+  .main-banner__wrap {
+    display: inline-flex;
+    margin: auto;
+    background-color: lawngreen;
+  }
+
   .main-banner__container {
     position: relative;
-    left: 50px;
     display: inline-flexbox;
     background-color: blanchedalmond;
   }
@@ -413,7 +418,6 @@
 
   .main__banner-image {
     position: relative;
-    left: 500px;
   }
 
   .banner__image-woman {
@@ -422,8 +426,6 @@
 
   .main-banner__button {
     position: fixed;
-    margin-top: 300px;
-    margin-left: 50px;
   }
 
   .main-banner__button-touch {
