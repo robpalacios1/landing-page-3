@@ -386,6 +386,8 @@
   }
 
   .main-banner__container {
+    position: relative;
+    left: 50px;
     display: inline-flexbox;
     background-color: blanchedalmond;
   }
@@ -409,6 +411,11 @@
     text-align: left;
   }
 
+  .main__banner-image {
+    position: relative;
+    left: 500px;
+  }
+
   .banner__image-woman {
     padding: 0 20px;
   }
@@ -416,6 +423,10 @@
   .main-banner__button {
     position: fixed;
     margin-top: 300px;
-    margin-left: 10px;
+    margin-left: 50px;
+  }
+
+  .main-banner__button-touch {
+    cursor: pointer;
   }
 }
