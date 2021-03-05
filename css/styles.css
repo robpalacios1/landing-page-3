@@ -509,7 +509,6 @@
 
 .main-section__title {
   font-size: 24px;
-  background-color: burlywood;
   padding-top: 40px;
 }
 
@@ -531,6 +530,7 @@
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
+    padding-top: 80px;
     order: 0;
     flex-grow: 0;
     margin: 8px 0px;
