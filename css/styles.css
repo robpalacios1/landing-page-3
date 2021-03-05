@@ -452,12 +452,10 @@
 
 .main-title__text {
   font-size: 24px;
-  background-color: #8c30f5;
   padding-bottom: 30px;
 }
 
 .main-title__list {
-  background-color: sandybrown;
   display: flex;
   justify-content: space-between;
 }
@@ -483,7 +481,6 @@
 
 @media screen and (min-width: 1024px) {
   .main-title__text {
-    background-color: #8c30f5;
     font-style: normal;
     padding-bottom: 50px;
     font-size: 35px;
