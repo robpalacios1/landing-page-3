@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -320,6 +322,14 @@
   align-items: center;
 }
 
+.main-banner__circle-orange {
+  display: none;
+}
+
+.main-banner__circle-turquoise {
+  display: none;
+}
+
 .main-banner__button {
   display: flex;
   justify-content: center;
@@ -430,5 +440,19 @@
 
   .main-banner__button-touch {
     cursor: pointer;
+  }
+
+  .main-banner__circle-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-banner__circle-turquoise {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-banner__big-circle {
+    display: none;
   }
 }
