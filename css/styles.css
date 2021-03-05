@@ -456,3 +456,63 @@
     display: none;
   }
 }
+
+/* title */
+
+.main-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-title__text {
+  font-size: 24px;
+  background-color: #8c30f5;
+  padding-bottom: 30px;
+}
+
+.main-title__list {
+  background-color: sandybrown;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title__icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-title__list {
+  flex-direction: column;
+  justify-content: space-around;
+  width: 31px;
+  height: 31px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .main-title__list {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-title__text {
+    background-color: #8c30f5;
+    font-style: normal;
+    padding-bottom: 50px;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .main-title__list {
+    width: 62px;
+    height: 62px;
+  }
+}
