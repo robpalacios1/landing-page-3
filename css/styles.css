@@ -373,38 +373,24 @@
 
 @media screen and (min-width: 601px) and (max-width: 1023px) {
   .main-banner {
-    background-color: brown;
-  }
-
-  .main-banner__container {
-    background-color: coral;
-  }
-
-  .banner__text {
-    background-color: cyan;
-  }
-
-  .main-banner__span {
-    background-color: darkcyan;
+    background-color: #9fbecf;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main-banner {
     display: flex;
-    background-color: aquamarine;
+    background-color: #fff;
   }
 
   .main-banner__wrap {
     display: inline-flex;
     margin: auto;
-    background-color: lawngreen;
   }
 
   .main-banner__container {
     position: relative;
     display: inline-flexbox;
-    background-color: blanchedalmond;
   }
 
   .banner__text {
