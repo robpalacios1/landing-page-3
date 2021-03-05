@@ -435,7 +435,7 @@
   }
 
   .main-banner__button {
-    position: fixed;
+    position: absolute;
   }
 
   .main-banner__button-touch {
