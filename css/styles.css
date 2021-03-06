@@ -553,6 +553,7 @@
   }
 
   .main-section__global {
+    display: flex;
     text-align: left;
     margin-left: 65px;
   }
