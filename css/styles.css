@@ -682,3 +682,17 @@ p {
     align-items: center;
   }
 }
+
+/*Statistics*/
+
+.main-statistics {
+  display: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-statistics {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+  }
+}
