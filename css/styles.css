@@ -661,4 +661,19 @@ p {
   .main-card__name {
     text-align: center;
   }
+
+  .main-card__elipse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .main-card__elipse-1 {
+    margin: 0 5px;
+  }
+
+  .main-card__elipse-2 {
+    align-items: center;
+  }
 }
