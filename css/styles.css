@@ -611,6 +611,10 @@ p {
   display: none;
 }
 
+.main-card__elipse {
+  display: none;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1023px) {
   .main-card__pictures {
     display: flex;
