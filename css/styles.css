@@ -787,10 +787,18 @@ p {
   display: none;
 }
 
+.main-headline__button {
+  display: none;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1023px) {
   .main-headline__description {
     display: flex;
     justify-content: space-around;
+  }
+
+  .main-headline__button {
+    display: none;
   }
 }
 
@@ -858,5 +866,26 @@ p {
     line-height: 26px;
     font-feature-settings: "liga" off;
     color: #18191f;
+  }
+
+  .main-headline__button {
+    display: flex;
+  }
+
+  .headline__button-touch {
+    background: #8c30f5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    padding: 10px 21px 10px 22px;
+    margin: 40px 0px;
+  }
+
+  .headline__button-touch:hover {
+    background-color: #fff;
+    color: #8c30f5;
+    margin: none;
   }
 }
