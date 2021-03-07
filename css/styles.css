@@ -936,3 +936,30 @@ p {
     }
   }
 }
+
+/* App */
+.main-app {
+  background-color: antiquewhite;
+}
+
+.main-app__title {
+  padding-top: 40px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-app__get-app {
+  margin-top: 15px;
+  font-size: 25px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .main-app__pictures {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-app {
+  }
+}
