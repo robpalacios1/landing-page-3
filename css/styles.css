@@ -939,7 +939,7 @@ p {
 
 /* App */
 .main-app {
-  background-color: antiquewhite;
+  background: #2ec5ce;
 }
 
 .main-app__title {
@@ -948,18 +948,44 @@ p {
   text-align: center;
 }
 
+.main-app__subtitle {
+  text-align: center;
+  margin-top: 15px;
+}
+
 .main-app__get-app {
+  text-align: center;
   margin-top: 15px;
   font-size: 25px;
 }
 
+.main-app__pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.main-app__right {
+  display: none;
+}
+
 @media screen and (min-width: 601px) and (max-width: 1023px) {
-  .main-app__pictures {
-    justify-content: space-around;
+  .main-app__right {
+    display: none;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .main-app {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-app__left {
+    display: none;
+  }
+
+  .main-app__right {
+    display: flex;
+    justify-content: center;
   }
 }
