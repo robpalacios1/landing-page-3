@@ -837,6 +837,7 @@ p {
 
 .main-app__subtitle {
   text-align: center;
+  line-height: 30px;
   margin-top: 15px;
 }
 
