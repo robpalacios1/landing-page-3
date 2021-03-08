@@ -465,17 +465,19 @@
   justify-content: space-around;
 }
 
+.main-title__container {
+  display: flex;
+}
+
 .main-title__list {
-  flex-direction: column;
-  justify-content: space-around;
-  width: 31px;
-  height: 31px;
+  width: 40px;
+  height: 40px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1023px) {
   .main-title__list {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
   }
 }
 
@@ -495,7 +497,7 @@
   }
 
   .main-title__list {
-    width: 62px;
-    height: 62px;
+    width: 100px;
+    height: 100px;
   }
 }
