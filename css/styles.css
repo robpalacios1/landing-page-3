@@ -888,56 +888,10 @@ p {
     color: #8c30f5;
     margin: none;
   }
-
-  /* App */
-
-  .main-app {
-    background: #2ec5ce;
-  }
-
-  .main-app__left {
-    padding: 20px 0;
-  }
-
-  .main-app__title {
-    font-size: 30px;
-    text-align: center;
-  }
-
-  .main-app__subtitle {
-    text-align: center;
-    line-height: 30px;
-    margin-top: 15px;
-  }
-
-  .main-app__right {
-    display: none;
-  }
-
-  @media screen and (min-width: 601px) and (max-width: 1023px) {
-    .main-app__right {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    .main-app {
-      display: flex;
-      justify-content: center;
-    }
-
-    .main-app__left {
-      display: none;
-    }
-
-    .main-app__right {
-      display: flex;
-      justify-content: center;
-    }
-  }
 }
 
 /* App */
+
 .main-app {
   background: #2ec5ce;
 }
@@ -980,32 +934,5 @@ p {
   .main-app__right {
     display: flex;
     justify-content: center;
-  }
-}
-
-/* App */
-.main-app {
-  background-color: antiquewhite;
-}
-
-.main-app__title {
-  padding-top: 40px;
-  font-size: 30px;
-  text-align: center;
-}
-
-.main-app__get-app {
-  margin-top: 15px;
-  font-size: 25px;
-}
-
-@media screen and (min-width: 601px) and (max-width: 1023px) {
-  .main-app__pictures {
-    justify-content: space-around;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .main-app {
   }
 }
