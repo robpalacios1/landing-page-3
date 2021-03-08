@@ -840,17 +840,6 @@ p {
   margin-top: 15px;
 }
 
-.main-app__get-app {
-  text-align: center;
-  margin-top: 15px;
-  font-size: 25px;
-}
-
-.main-app__pictures {
-  display: flex;
-  justify-content: center;
-}
-
 .main-app__right {
   display: none;
 }
