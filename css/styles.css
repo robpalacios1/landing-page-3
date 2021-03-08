@@ -942,8 +942,11 @@ p {
   background: #2ec5ce;
 }
 
+.main-app__left {
+  padding: 20px 0;
+}
+
 .main-app__title {
-  padding-top: 40px;
   font-size: 30px;
   text-align: center;
 }
