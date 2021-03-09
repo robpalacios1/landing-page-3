@@ -501,3 +501,131 @@
     height: 100px;
   }
 }
+
+/* section */
+
+.main-section {
+  text-align: center;
+  font-size: 20px;
+}
+
+.main-section__title {
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+.main-section__icons {
+  padding: 20px 0;
+}
+
+.main-section__list {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-section__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: left;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    padding-top: 80px;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .main-section__icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .main-section__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .main-section__subtitle {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .main-section__global {
+    display: flex;
+    text-align: left;
+    margin-left: 65px;
+  }
+
+  .main-section__span {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+}
+
+/* section */
+
+.main-section {
+  text-align: center;
+  font-size: 20px;
+}
+
+.main-section__title {
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+.main-section__icons {
+  padding: 20px 0;
+}
+
+.main-section__list {
+  padding: 10px 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .main-section__title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: left;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    padding-top: 80px;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .main-section__icons {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .main-section__list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .main-section__subtitle {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .main-section__global {
+    display: flex;
+    text-align: left;
+    margin-left: 65px;
+  }
+
+  .main-section__span {
+    font-size: 15px;
+    padding: 0 30px;
+  }
+}
