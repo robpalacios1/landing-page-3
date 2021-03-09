@@ -566,69 +566,6 @@
   }
 }
 
-/* section */
-
-.main-section {
-  text-align: center;
-  font-size: 20px;
-}
-
-.main-section__title {
-  font-size: 24px;
-  padding-top: 40px;
-}
-
-.main-section__icons {
-  padding: 20px 0;
-}
-
-.main-section__list {
-  padding: 10px 0;
-}
-
-@media screen and (min-width: 1024px) {
-  .main-section__title {
-    font-style: normal;
-    font-weight: 800;
-    font-size: 35px;
-    line-height: 64px;
-    text-align: left;
-    font-feature-settings: "liga" off;
-    color: #18191f;
-    flex: none;
-    padding-top: 80px;
-    order: 0;
-    flex-grow: 0;
-    margin: 8px 0px;
-  }
-
-  .main-section__icons {
-    display: flex;
-    justify-content: flex-start;
-  }
-
-  .main-section__list {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-  }
-
-  .main-section__subtitle {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .main-section__global {
-    display: flex;
-    text-align: left;
-    margin-left: 65px;
-  }
-
-  .main-section__span {
-    font-size: 15px;
-    padding: 0 30px;
-  }
-}
 
 /* Cards */
 
@@ -760,5 +697,132 @@ p {
     display: flex;
     justify-content: center;
     padding: auto;
+  }
+}
+
+/* Headline*/
+
+.main-headline {
+  text-align: center;
+  font-size: 20px;
+}
+
+.main-headline__title {
+  font-size: 24px;
+  padding-top: 40px;
+}
+
+.main-headline__icons {
+  padding: 20px 0;
+}
+
+.main-headline__list {
+  padding: 10px 0;
+}
+
+.main-headline__left {
+  display: none;
+}
+
+.main-headline__button {
+  display: none;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .main-headline__description {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .main-headline__button {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-headline {
+    display: flex;
+    padding: 60px 0;
+  }
+
+  .main-headline__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-headline__right {
+    margin: auto;
+  }
+
+  .main-headline__title {
+    display: flex;
+    justify-content: flex-start;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54px;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+  }
+
+  .main-headline__span {
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+  }
+
+  .main-headline__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .main-headline__subtitle {
+    text-align: left;
+    margin-left: 25px;
+  }
+
+  .main-headline__headline {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+  }
+
+  .main-headline__global {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+  }
+
+  .main-headline__button {
+    display: flex;
+  }
+
+  .headline__button-touch {
+    background: #8c30f5;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    flex: none;
+    flex-grow: 0;
+    padding: 10px 21px 10px 22px;
+    margin: 40px 0px;
+  }
+
+  .headline__button-touch:hover {
+    background-color: #fff;
+    color: #8c30f5;
+    margin: none;
   }
 }
