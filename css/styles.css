@@ -442,3 +442,62 @@
     display: none;
   }
 }
+
+/* title */
+
+.main-title {
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-title__text {
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.main-title__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title__icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.main-title__container {
+  display: flex;
+}
+
+.main-title__list {
+  width: 35px;
+  height: 35px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .main-title__list {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-title__text {
+    font-style: normal;
+    padding-bottom: 50px;
+    font-size: 35px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 8px 0px;
+  }
+
+  .main-title__list {
+    width: 100px;
+    height: 100px;
+  }
+}
