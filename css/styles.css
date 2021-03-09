@@ -462,16 +462,19 @@
 
 .main-title__icons {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .main-title__container {
   display: flex;
+  justify-content: center;
 }
 
 .main-title__list {
-  width: 35px;
-  height: 35px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
 }
 
 @media screen and (min-width: 601px) and (max-width: 1023px) {
@@ -565,7 +568,6 @@
     padding: 0 30px;
   }
 }
-
 
 /* Cards */
 
