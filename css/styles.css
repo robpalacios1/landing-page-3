@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -285,5 +287,158 @@
 
   a {
     color: #fff;
+  }
+}
+
+/* Banner */
+
+.main-banner {
+  padding: 130px 0;
+  background-color: #9fbecf;
+}
+
+.banner__text {
+  font-size: 40px;
+  margin: 16px 0px;
+  text-align: center;
+}
+
+.main-banner__span {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  font-feature-settings: "liga" off;
+  margin: 15px 0;
+}
+
+.main-banner__image {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__image-woman {
+  align-items: center;
+}
+
+.main-banner__circle-orange {
+  display: none;
+}
+
+.main-banner__circle-turquoise {
+  display: none;
+}
+
+.main-banner__button {
+  display: flex;
+  justify-content: center;
+}
+
+.banner__button-touch {
+  background: #8c30f5;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  align-self: flex-start;
+  flex-grow: 0;
+  margin: 32px 0px;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  padding: 16px 41px;
+  border: none;
+  color: #ffffff;
+}
+
+.banner__button-touch:hover {
+  background-color: #fff;
+  color: #8c30f5;
+  margin: none;
+}
+
+.main-banner__circle {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .main-banner {
+    background-color: #9fbecf;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1023px) {
+  .main-banner {
+    background-color: #9fbecf;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .main-banner {
+    display: flex;
+    background-color: #fff;
+  }
+
+  .main-banner__wrap {
+    display: inline-flex;
+    margin: auto;
+  }
+
+  .main-banner__container {
+    position: relative;
+    display: inline-flexbox;
+  }
+
+  .banner__text {
+    font-family: Manrope;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: left;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+
+  .main-banner__span {
+    text-align: left;
+  }
+
+  .main__banner-image {
+    position: relative;
+  }
+
+  .banner__image-woman {
+    padding: 0 20px;
+  }
+
+  .main-banner__button {
+    position: absolute;
+  }
+
+  .main-banner__button-touch {
+    cursor: pointer;
+  }
+
+  .main-banner__circle-orange {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .main-banner__circle-turquoise {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main-banner__big-circle {
+    display: none;
   }
 }
