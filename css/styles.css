@@ -378,6 +378,7 @@
 @media screen and (min-width: 1024px) {
   .main-banner {
     display: flex;
+    margin: 0 100px;
     background-color: #fff;
   }
 
@@ -524,6 +525,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main-section {
+    margin: 0 100px;
+  }
+
   .main-section__title {
     font-style: normal;
     font-weight: 800;
@@ -956,7 +961,6 @@ p {
   .main-statistics {
     display: flex;
     justify-content: center;
-    padding: auto;
   }
 }
 
@@ -1002,13 +1006,32 @@ p {
 @media screen and (min-width: 1024px) {
   .main-headline {
     display: flex;
-    padding: 60px 0;
+    margin: 0 100px;
   }
 
   .main-headline__left {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .main-headline__container {
+    display: flex;
+  }
+
+  .main-headline__picture-chess {
+    margin-right: 86px;
+    margin-top: 7px;
+  }
+
+  .main-headline__picture-tshirt {
+    margin-top: 64px;
+    margin-right: 99px;
+  }
+
+  .main-headline__picture-coffe {
+    margin-right: 50px;
+    margin-top: 7px;
   }
 
   .main-headline__right {
@@ -1265,9 +1288,7 @@ a {
 
   .main-footer__items {
     margin: 0 20px;
-
     background-color: rgb(102, 100, 100);
-    opacity: 0.5;
     border-radius: 0.8em;
     -moz-border-radius: 0.8em;
     -webkit-border-radius: 0.8em;
