@@ -322,6 +322,7 @@
 }
 
 .main-banner__image {
+  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -418,6 +419,7 @@
   }
 
   .main-banner__span {
+    position: relative;
     text-align: left;
   }
 
@@ -438,13 +440,18 @@
   }
 
   .main-banner__circle-orange {
+    position: absolute;
     display: flex;
+    right: 692px;
+    bottom: 649px;
     align-items: center;
     justify-content: center;
   }
 
   .main-banner__circle-turquoise {
+    position: absolute;
     display: flex;
+    bottom: -5px;
     flex-direction: column-reverse;
   }
   .main-header__big-circle {
