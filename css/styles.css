@@ -34,7 +34,6 @@
 
 .logo-desktop {
   justify-content: center;
-  margin-right: 3.125rem;
   flex-basis: 200%;
 }
 
@@ -258,7 +257,6 @@
 @media screen and (min-width: 1024px) {
   .nav-header {
     position: absolute;
-    margin-bottom: 0.313rem;
   }
 
   .nav-header__icon {
@@ -502,8 +500,9 @@
 @media screen and (min-width: 1024px) {
   .main-title__text {
     font-style: normal;
+    font-weight: 800;
+    font-size: 48px;
     padding-bottom: 3.125rem;
-    font-size: 2.188rem;
     line-height: 4rem;
     text-align: center;
     font-feature-settings: "liga" off;
@@ -548,7 +547,7 @@
   .main-section__title {
     font-style: normal;
     font-weight: 800;
-    font-size: 2.188rem;
+    font-size: 48px;
     line-height: 4rem;
     text-align: left;
     font-feature-settings: "liga" off;
@@ -597,13 +596,34 @@
 .main-card__title {
   background-color: #f4f5f7;
   padding-top: 2.5rem;
-  font-size: 1.875rem;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
   text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 .main-card__span {
-  font-size: 0.938rem;
   margin-bottom: 1.25rem;
+  font-family: Manrope;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "liga" off;
+  color: #18191f;
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 8px 0px;
 }
 
 .main-card__testimonial {
@@ -660,11 +680,23 @@ p {
   }
 
   .main-card__cards-testimonial {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
     text-align: center;
+    font-feature-settings: "liga" off;
+    color: #18191f;
   }
 
   .main-card__paragraph {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
     text-align: center;
+    font-feature-settings: "liga" off;
+    color: #18191f;
   }
 
   .main-card__pictures {
@@ -688,7 +720,31 @@ p {
   }
 
   .main-card__name {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
     text-align: center;
+    font-feature-settings: "liga" off;
+    color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+  }
+
+  .main-card__position {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #474a57;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
   }
 
   .main-card__elipse {
@@ -769,132 +825,6 @@ p {
   .main-headline {
     display: flex;
     padding: 3.75rem 0rem;
-  }
-
-  .main-headline__left {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .main-headline__right {
-    margin: auto;
-  }
-
-  .main-headline__title {
-    display: flex;
-    justify-content: flex-start;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 2.5rem;
-    line-height: 3.375rem;
-    font-feature-settings: "liga" off;
-    color: #18191f;
-  }
-
-  .main-headline__span {
-    text-align: left;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 2rem;
-    font-feature-settings: "liga" off;
-    color: #18191f;
-  }
-
-  .main-headline__list {
-    display: flex;
-    align-items: center;
-  }
-
-  .main-headline__subtitle {
-    text-align: left;
-    margin-left: 1.563rem;
-  }
-
-  .main-headline__headline {
-    font-family: Manrope;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1.25rem;
-    line-height: 1.875rem;
-    font-feature-settings: "liga" off;
-    color: #18191f;
-  }
-
-  .main-headline__global {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.625rem;
-    font-feature-settings: "liga" off;
-    color: #18191f;
-  }
-
-  .main-headline__button {
-    display: flex;
-  }
-
-  .headline__button-touch {
-    background: #8c30f5;
-    color: #fff;
-    border: none;
-    border-radius: 0.5rem;
-    flex: none;
-    flex-grow: 0;
-    padding: 0.625rem 1.313rem 0.625rem 1.375rem;
-    margin: 2.5rem 0rem;
-  }
-
-  .headline__button-touch:hover {
-    background-color: #fff;
-    color: #8c30f5;
-    margin: none;
-  }
-}
-
-/* Headline*/
-
-.main-headline {
-  text-align: center;
-  font-size: 1.25rem;
-}
-
-.main-headline__title {
-  font-size: 1.5rem;
-  padding-top: 2.5rem;
-}
-
-.main-headline__icons {
-  padding: 1.25rem 0rem;
-}
-
-.main-headline__list {
-  padding: 0.625rem 0rem;
-}
-
-.main-headline__left {
-  display: none;
-}
-
-.main-headline__button {
-  display: none;
-}
-
-@media screen and (min-width: 601px) and (max-width: 1023px) {
-  .main-headline__description {
-    display: flex;
-    justify-content: space-around;
-  }
-
-  .main-headline__button {
-    display: none;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .main-headline {
-    display: flex;
     margin: 2.5rem 6.25rem;
     margin-bottom: 3.75rem;
   }
@@ -937,20 +867,28 @@ p {
     justify-content: flex-start;
     font-style: normal;
     font-weight: 800;
-    font-size: 2.5rem;
-    line-height: 3.375rem;
+    font-size: 40px;
+    line-height: 54px;
     font-feature-settings: "liga" off;
     color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
   }
 
   .main-headline__span {
     text-align: left;
     font-style: normal;
     font-weight: normal;
-    font-size: 1.125rem;
-    line-height: 2rem;
+    font-size: 18px;
+    line-height: 32px;
     font-feature-settings: "liga" off;
     color: #18191f;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
   }
 
   .main-headline__list {
@@ -966,20 +904,28 @@ p {
   .main-headline__headline {
     font-family: Manrope;
     font-style: normal;
-    font-weight: bold;
-    font-size: 1.125rem;
-    line-height: 1.875rem;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
     font-feature-settings: "liga" off;
     color: #18191f;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 4px 0px;
   }
 
   .main-headline__global {
     font-style: normal;
     font-weight: normal;
-    font-size: 1rem;
-    line-height: 1.625rem;
+    font-size: 16px;
+    line-height: 26px;
     font-feature-settings: "liga" off;
     color: #18191f;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 4px 0px;
   }
 
   .main-headline__button {
@@ -993,6 +939,8 @@ p {
     border-radius: 0.5rem;
     flex: none;
     flex-grow: 0;
+    padding: 0.625rem 1.313rem 0.625rem 1.375rem;
+    margin: 2.5rem 0rem;
   }
 
   .headline__button-touch:hover {
@@ -1073,10 +1021,14 @@ p {
 .main-footer__subtitle {
   font-style: normal;
   font-weight: 500;
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+  font-size: 18px;
+  line-height: 28px;
   font-feature-settings: "liga" off;
   color: #f4f5f7;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 24px 0px;
 }
 
 .main-footer__list {
@@ -1173,6 +1125,19 @@ a {
     color: #eeeff4;
   }
 
+  .main-footer__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #eeeff4;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 12px 0px;
+  }
+
   .main-footer__rights {
     display: flex;
   }
@@ -1182,6 +1147,19 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
+  }
+
+  .main-footer__span {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: "liga" off;
+    color: #d9dbe1;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
   }
 
   .main-footer__items {
