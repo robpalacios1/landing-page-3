@@ -439,8 +439,8 @@
   .main-banner__circle-orange {
     position: absolute;
     display: flex;
-    right: 692px;
-    bottom: 649px;
+    right: 43.25rem;
+    bottom: 40.563rem;
     align-items: center;
     justify-content: center;
   }
@@ -448,7 +448,7 @@
   .main-banner__circle-turquoise {
     position: absolute;
     display: flex;
-    bottom: -5px;
+    bottom: -0.313rem;
     flex-direction: column-reverse;
   }
   .main-header__big-circle {
@@ -501,7 +501,7 @@
   .main-title__text {
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     padding-bottom: 3.125rem;
     line-height: 4rem;
     text-align: center;
@@ -547,7 +547,7 @@
   .main-section__title {
     font-style: normal;
     font-weight: 800;
-    font-size: 48px;
+    font-size: 3rem;
     line-height: 4rem;
     text-align: left;
     font-feature-settings: "liga" off;
@@ -598,15 +598,15 @@
   padding-top: 2.5rem;
   font-style: normal;
   font-weight: 800;
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 3rem;
+  line-height: 4rem;
   text-align: center;
   font-feature-settings: "liga" off;
   color: #18191f;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 8px 0px;
+  margin: 0.5rem 0rem;
 }
 
 .main-card__span {
@@ -614,8 +614,8 @@
   font-family: Manrope;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.125rem;
+  line-height: 2rem;
   text-align: center;
   font-feature-settings: "liga" off;
   color: #18191f;
@@ -623,7 +623,7 @@
   order: 1;
   align-self: stretch;
   flex-grow: 0;
-  margin: 8px 0px;
+  margin: 0.5rem 0rem;
 }
 
 .main-card__testimonial {
@@ -682,8 +682,8 @@ p {
   .main-card__cards-testimonial {
     font-style: normal;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 1.5rem;
+    line-height: 2rem;
     text-align: center;
     font-feature-settings: "liga" off;
     color: #18191f;
@@ -692,8 +692,8 @@ p {
   .main-card__paragraph {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     text-align: center;
     font-feature-settings: "liga" off;
     color: #18191f;
@@ -722,29 +722,29 @@ p {
   .main-card__name {
     font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 28px;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
     text-align: center;
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 0rem 0rem;
   }
 
   .main-card__position {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     text-align: center;
     font-feature-settings: "liga" off;
     color: #474a57;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 0rem 0rem;
   }
 
   .main-card__elipse {
@@ -867,28 +867,28 @@ p {
     justify-content: flex-start;
     font-style: normal;
     font-weight: 800;
-    font-size: 40px;
-    line-height: 54px;
+    font-size: 2.5rem;
+    line-height: 3.375rem;
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 1rem 0rem;
   }
 
   .main-headline__span {
     text-align: left;
     font-style: normal;
     font-weight: normal;
-    font-size: 18px;
-    line-height: 32px;
+    font-size: 1.125rem;
+    line-height: 2rem;
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 16px 0px;
+    margin: 1rem 0rem;
   }
 
   .main-headline__list {
@@ -905,27 +905,27 @@ p {
     font-family: Manrope;
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 4px 0px;
+    margin: 0.25rem 0rem;
   }
 
   .main-headline__global {
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 1rem;
+    line-height: 1.625rem;
     font-feature-settings: "liga" off;
     color: #18191f;
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 4px 0px;
+    margin: 0.25rem 0rem;
   }
 
   .main-headline__button {
@@ -1021,14 +1021,14 @@ p {
 .main-footer__subtitle {
   font-style: normal;
   font-weight: 500;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
   font-feature-settings: "liga" off;
   color: #f4f5f7;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 24px 0px;
+  margin: 1.5rem 0rem;
 }
 
 .main-footer__list {
@@ -1128,14 +1128,14 @@ a {
   .main-footer__link {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     font-feature-settings: "liga" off;
     color: #eeeff4;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0px;
+    margin: 0.75rem 0rem;
   }
 
   .main-footer__rights {
@@ -1152,14 +1152,14 @@ a {
   .main-footer__span {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
     font-feature-settings: "liga" off;
     color: #d9dbe1;
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 0px 0px;
+    margin: 0rem 0rem;
   }
 
   .main-footer__items {
